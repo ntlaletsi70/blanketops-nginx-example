@@ -20,4 +20,8 @@ The Docker way
 2. docker build -t 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
 3. docker tag 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
 4. docker push 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
+
+Deploy To ECS Using Github Action
+
+1. See .github/workflows/aws.yaml
 ```
