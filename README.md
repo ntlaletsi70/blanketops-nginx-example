@@ -12,7 +12,12 @@ Typical Developer Workflow Process
 ```
 
 ```
-How CD CI Look like?
+CD CI Down to Upstream
 
-1. docker build -t 
+The Docker way
+
+1. aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 686255954747.dkr.ecr.eu-north-1.amazonaws.com
+2. docker build -t 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
+3. docker tag 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
+4. docker push 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
 ```
