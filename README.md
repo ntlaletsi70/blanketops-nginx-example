@@ -1,0 +1,1 @@
+# blanketops-nginx-example
