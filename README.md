@@ -12,6 +12,11 @@ Typical Developer Workflow Process
 ```
 
 ```
+GitHub process for Developement
+```
+
+
+```
 CD CI Down to Upstream
 
 The Docker way
