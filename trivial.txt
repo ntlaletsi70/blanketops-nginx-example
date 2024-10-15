@@ -1,0 +1,6 @@
+BlanketOps NGINX Example Test File
+
+Dummy file to persue trivial commits for testing, and notes
+AWS_REGION value causing authentication issue, troubleshooting, this required for Deployment to ECS
+Some problems
+Trigger New
