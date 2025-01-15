@@ -27,6 +27,5 @@ From the dockerhub docs
 2. docker run --name some-nginx -d -p 8081:80 some-content-nginx
 
 Deploy To ECS Using Github Action
-
 1. See .github/workflows/aws.yaml
 ```
