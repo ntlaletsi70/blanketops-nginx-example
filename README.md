@@ -15,18 +15,12 @@ Typical Developer Workflow Process
 GitHub process for Developement
 ```
 
-
 ```
 CD CI Down to Upstream
 
-The Docker way
+The Docker way 
 
-1. aws ecr get-login-password --region eu-north-1 | docker login --username AWS --password-stdin 686255954747.dkr.ecr.eu-north-1.amazonaws.com
-2. docker build -t 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
-3. docker tag 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
-4. docker push 686255954747.dkr.ecr.eu-north-1.amazonaws.com/crossplane-blanketops-ecr-repository:latest
-
-Deploy To ECS Using Github Actions
-
-1. See .github/workflows/aws.yaml
-```
+1. docker login -u <username>
+2. Enter Docker Account Personal Access account as password
+3. docker build -t <registry>/<username>/<repository>:<tag> .
+4  docker push <registry>/<username>/<repository>:<tag>
