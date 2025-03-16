@@ -1,7 +1,7 @@
 # BlanketOps Nginx Example.
 
 ```
-Typical Developer Workflow Process
+Typical Developer Workflow Process.
 
 1. Checkout new branch: git checkout -b feature/<branch name>, git checkout -b bugfix/<branch name>
 2. Do Developer changes
