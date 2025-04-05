@@ -1,4 +1,4 @@
-# BlanketOps Nginx Example
+# BlanketOps Nginx Example.
 
 ```
 Typical Developer Workflow Process
